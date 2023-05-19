@@ -82,7 +82,7 @@ resource "aws_security_group" "sg" {
 # Create a key pair
 resource "aws_key_pair" "authentication_key" {
     key_name = "dev_key"
-    public_key = file("~/.ssh/mtckey.pub")
+    public_key = file("~/.ssh/testkey.pub")
   
 }
 
